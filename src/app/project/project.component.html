@@ -1,4 +1,24 @@
 <app-layout>
-    <p>project works!</p>
-</app-layout>
+    <h2>
+        Project
+    </h2>
+    <div class="d-flex flex-wrap">
+        <a *ngFor="let project of projects; index as i;" [href]="project.link" target="_blank">
+            <div class="card m-2" style="width: 22rem;">
+                <img [src]="project.image" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-text" style="text-indent: 10px">
+                        {{ project.detail }}
+                        <br />
+                        <span *ngFor="let tool of project.tools;" style="font-size: 18px;">
+                            <strong>
+                                #{{ tool }}
+                            </strong>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </a>
+    </div>
 
+</app-layout>

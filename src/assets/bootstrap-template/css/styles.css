@@ -159,13 +159,14 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #000;
   text-decoration: none;
   background-color: transparent;
+  
 }
 a:hover {
-  color: #824027;
-  text-decoration: underline;
+  color: #000;
+  text-decoration: none;
 }
 
 a:not([href]):not([class]) {
@@ -9991,14 +9992,15 @@ h3 {
   }
 }
 body {
-  padding-top: 3.375rem;
+  padding-top: 8.5rem;
   color: #6c757d;
 }
 
 @media (min-width: 992px) {
   body {
-    padding-top: 0;
-    padding-left: 17rem;
+    padding-top: 3rem;
+    padding-left: 10rem;
+    padding-right: 6rem;
   }
 }
 h1,
