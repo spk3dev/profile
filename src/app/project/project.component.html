@@ -5,7 +5,7 @@
     <div class="d-flex flex-wrap">
         <a *ngFor="let project of projects; index as i;" [href]="project.link" target="_blank">
             <div class="card m-2" style="width: 22rem;">
-                <img [src]="project.image" class="card-img-top">
+                <img [src]="project.image"  width="120%" height="auto" class="card-img-top">
                 <div class="card-body">
                     <p class="card-text" style="text-indent: 10px">
                         {{ project.detail }}

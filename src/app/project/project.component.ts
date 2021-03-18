@@ -18,7 +18,15 @@ export class ProjectComponent implements OnInit {
       name : "Trendy Wash",
       detail : "พัฒนาส่วนของการเข้าสู่ระบบด้วย Facebook, Line, Google signin และ Apple id และอัปเดทขึ้นสโตร์ทั้ง ios และ android",
       tools : ["react native"]
-    }]
+    },
+    {
+      image : "/assets/pokemon-web-img.png",
+      link : "https://spk3dev.github.io/pokemon-playground/",
+      name : "Trendy Wash",
+      detail : "เว็ปไซค์ pokemon playground สามารถเพิ่ม pokemon และขยับตามแกน x,y ได้",
+      tools : ["reactjs"]
+    }
+    ]
   }
 
 }
