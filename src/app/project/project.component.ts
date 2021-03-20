@@ -20,7 +20,7 @@ export class ProjectComponent implements OnInit {
       tools : ["react native"]
     },
     {
-      image : "/assets/pokemon-web-img.png",
+      image : "assets/pokemon-web-img.png",
       link : "https://spk3dev.github.io/pokemon-playground/",
       name : "Trendy Wash",
       detail : "เว็ปไซค์ pokemon playground สามารถเพิ่ม pokemon และขยับตามแกน x,y ได้",
